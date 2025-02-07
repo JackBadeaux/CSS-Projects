@@ -1,0 +1,21 @@
+.container p a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.container ul li {
+    padding: 10px;
+}
+.container ul{
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(0, 255, 255, 0.541)
+}
+
+.container ul li:nth-child(EVEN){
+    background-color: blueviolet;
+
+}
+.container ul li:nth-child(odd){
+    background-color: chartreuse;
+}

@@ -1,0 +1,10 @@
+body{text-align: center;}
+h1{ background-color: aquamarine; border: 2px dashed black; }
+.lemon{ border: 2px black solid;
+color: yellow;
+background-color: black;
+}
+.orange{ border: 2px black solid;
+color: orange;
+background-color: black;
+}

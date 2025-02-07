@@ -1,0 +1,23 @@
+nav{text-align: center;
+background-color: rgba(127, 255, 212, 0.589);
+list-style-position: inside;
+}
+a{color: rgba(13, 5, 83, 0.801);
+text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+li {
+   display: inline;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+.dif:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-item{
+    padding: 20px;
+}

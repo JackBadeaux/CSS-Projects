@@ -1,0 +1,25 @@
+.card {
+    border: 4px black solid;
+    background-color: rgba(95, 158, 160, 0.671);
+}
+
+figcaption {
+    display: inline;
+    border: 5px ridge black;
+}
+
+img {
+    border: 5px ridge blue;
+}
+
+.first {
+    display: inline;
+  border: 2px solid black;
+  margin: 2px;  
+}
+
+.other {
+    display: inline;
+border: 2px solid black;
+margin: 2px;
+}
