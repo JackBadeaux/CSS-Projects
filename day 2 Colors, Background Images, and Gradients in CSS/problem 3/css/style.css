@@ -1,0 +1,6 @@
+button {
+    background:linear-gradient(green,yellow)
+}
+button:hover{
+    background:linear-gradient(blue,black);
+}

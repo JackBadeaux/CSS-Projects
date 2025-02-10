@@ -1,0 +1,14 @@
+.what{
+    color: red;
+}
+.up{
+    color: #771515;
+}
+
+.hello{
+    color: rgb( 0,255,0 );
+}
+
+.world{
+    color: hsl(180, 100%, 50%);
+}
