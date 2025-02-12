@@ -1,0 +1,16 @@
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 100px;    /*  */
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+
+    margin-top: 150px;    /*  */
+
+}
+
+/* when the two margins meet it is not the sum of the margins but the largest one that is used as the margin */
