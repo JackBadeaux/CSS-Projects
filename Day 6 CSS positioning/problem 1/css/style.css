@@ -1,0 +1,10 @@
+.box {
+    position: relative;
+    top: 10px;  /* moves the element 10px down */
+    left: 20px; /* moves the element 20px to the right */
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+  }

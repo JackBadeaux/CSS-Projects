@@ -1,0 +1,21 @@
+.box1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    color: red;
+}
+.box2{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+    color: aqua;
+}
+.bigbox{
+    position: relative;
+    height: 200px;
+    background-color: rgb(44, 182, 182);
+    width: auto;
+    margin-bottom: 10px;
+}
