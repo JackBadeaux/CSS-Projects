@@ -1,0 +1,36 @@
+.banner{
+    position: static;
+    color: rgb(92, 82, 202);
+text-align: center
+}
+a:hover{
+    color: rgb(255, 0, 0);
+}
+nav ul{
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    left: 25%;
+    right: 50%;
+    top: 10px;
+    padding: 10px;
+}
+.container{
+    position: relative;
+    background-color: grey;
+    height: 100px; 
+/* have to add height for containter to be visable */
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
