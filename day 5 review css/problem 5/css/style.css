@@ -1,0 +1,16 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    height: 100px;
+    background-color: green;
+    z-index: 100;
+    top: 0;
+}
+.main{
+    position:relative;
+    background-color: gray;
+    text-align: center;
+    width: 1500px;
+    height: 1500px;
+    top:0;
+}
