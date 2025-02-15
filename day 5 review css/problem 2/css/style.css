@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Geist:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Libre+Caslon+Display:regular);
+@import url(https://fonts.googleapis.com/css?family=Monomakh:regular);
+
+.card {
+    background: radial-gradient(blue, red, purple);
+    height: 500px;
+    position: relative;
+    padding: 10px;
+}
+
+.card h1 {
+    font-family: Geist;
+    color: rgb(100, 1, 1);
+    text-align: center;
+}
+
+.card p {
+    font-family: Monomakh;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.badge {
+    top: 3px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    width: fit-content;
+    position: absolute;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .card {
+        width: 300px;
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+    .card {
+        width: 250px;
+        font-size: 14px;
+    }
+}

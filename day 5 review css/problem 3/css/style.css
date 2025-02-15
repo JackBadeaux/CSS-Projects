@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Liter:regular);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    left: 50%;
+    right: 50%;
+    gap: 20px;
+    font-family: liter;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: #504e4e;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #04ff0d;
+}
+.navbar li{
+    position: relative;
+    margin: 0 15px;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #504e4e;
+    border-radius: 30px;
+    list-style-type: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

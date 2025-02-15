@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Rochester:regular);
+
+.hero{
+    background: linear-gradient(red,blue);
+    height: 100px;
+    position: relative;
+    padding: 10px;
+}
+.hero h1{
+    font-family: rochester;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    right: 50%;
+    width: 200px;
+
+}
+button{
+    background: linear-gradient(green,yellow);
+    position: absolute;
+    bottom: 10px;
+    /* moves the element to the bottom of the container  */
+    right: 10px;
+    /* move the element to the right side of the container  */
+}
+button:hover{
+    background: linear-gradient(pink,purple);
+}
