@@ -1,16 +1,41 @@
-.sidebar{
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
     position: fixed;
-    left: 0;
-    height: 100px;
-    background-color: green;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(0, 128, 0);
     z-index: 100;
     top: 0;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
 }
-.main{
-    position:relative;
+
+.main {
+    position: relative;
     background-color: gray;
     text-align: center;
-    width: 1500px;
-    height: 1500px;
-    top:0;
+    top: 0;
+    left: 0;
+    width: calc(100%-200px);
+    height: 100vh;
+    border: 1px solid black;
+    color: aquamarine;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+@media (max-width:600px) {
+    .sidebar{
+        width: 100px;
+        height: 100%;
+        font-size: smaller;
+    }
+    .main {
+        width: calc(100% - 100px);
+        margin-left: 100px; 
+    }
 }

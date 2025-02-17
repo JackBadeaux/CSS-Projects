@@ -1,0 +1,16 @@
+.gallery{
+display: block;
+gap: 10px;
+}
+.gallery-item{
+background-image: url("../images/block.png");
+background-size: cover;
+height: 100px;
+width: 100px;
+display: inline-block;
+}
+.gallery-item:hover {
+    background: 
+        linear-gradient(135deg, rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), 
+        url("../images/block.png");
+}
