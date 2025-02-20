@@ -1,0 +1,7 @@
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    gap: 1rem;
+    background-color: lightblue;
+}

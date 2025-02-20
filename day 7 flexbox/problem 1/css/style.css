@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+}
+
+.flex-items{ padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.flex-items:nth-child(1){
+    background-color: lightcoral;
+    flex: 1;
+}
+.flex-items:nth-child(2){
+    background-color: lightblue;
+}
+.flex-items:nth-child(3){
+    background-color: lightsalmon;
+}

@@ -1,0 +1,23 @@
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexitem1{
+    order: 3;
+}
+.flexitem2{
+    order: 1;
+}
+.flexitem3{
+    order: 2;
+}
+
+.flexitem4{
+    order: 5;
+}
+.flexitem5{
+    order: 4;
+}
+
+/* order tag changes the order in how they show up on the webpage */
