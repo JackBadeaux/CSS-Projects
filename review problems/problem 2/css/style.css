@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,900&display=swap');
+
+.big-shoulders-stencil {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    margin-left: 30px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+}
+nav ul li a {
+    text-decoration: none;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.subbtn{
+    background-color: green;
+    width: fit-content;
+    align-self: center;
+    padding: 20px;
+}
+.imgofme{
+   height: 50%;
+   width: 50%;
+}
+figure{
+    margin: 20px;
+}
