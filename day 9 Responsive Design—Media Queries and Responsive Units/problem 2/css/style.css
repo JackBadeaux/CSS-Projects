@@ -10,3 +10,17 @@
 .rem{
     width: 100rem;
 }
+@media (max-width: 760px) {
+    .rem{
+        width: 25rem;
+    }
+    .em{
+        width: 25em;
+    }
+    .vh{
+        width: 50vh;
+    }
+    .vw{
+        width: 50vw;
+    }
+}
