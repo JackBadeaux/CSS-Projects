@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows:  auto auto;
+    gap: 1em;
+}
+.grid-items:nth-child(odd){
+    color: blue;
+    background-color: aqua;
+}
+.grid-items:nth-child(even){
+    color: aqua;
+    background-color: blue;
+}
